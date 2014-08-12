@@ -3,6 +3,23 @@ Rails.application.routes.draw do
   root"pages#home"
 
   get "about" => "pages#about"
+  get "schedule" => "pages#schedule"
+  get "ecourse" => "pages#ecourse"
+  get "vision" => "pages#vision"
+  get "founder" => "pages#founder"
+  get "board" => "pages#board"
+  get "history" => "pages#history"
+  get "science" => "pages#science"
+  get "students" => "pages#students"
+  get "gallery" => "pages#gallery"
+  get "donations" => "pages#donations"
+  get "faqs" => "pages#faqs"
+  get "speaker" => "pages#speaker"
+  get "exhibitions" => "pages#exhibitions"
+  get "fundraise" => "pages#fundraise"
+  get "volunteer" => "pages#volunteer"
+  get "press" => "pages#press"
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
