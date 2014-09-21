@@ -26,3 +26,13 @@ $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideUp()
 })
 
 
+$(document).ready(function(){
+    //FANCYBOX
+    //https://github.com/fancyapps/fancyBox
+    $(".fancybox").fancybox({
+        openEffect: "none",
+        closeEffect: "none"
+    });
+});
+   
+  
