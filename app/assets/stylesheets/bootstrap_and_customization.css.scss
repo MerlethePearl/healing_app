@@ -123,6 +123,10 @@ color:#2c3e50;
 
 
 .wrapper h2 {
+  color:#2c3e50;
+}
+
+.wrapper h3 {
   color:#fff;
 }
 
@@ -177,6 +181,12 @@ color:#2c3e50;
   margin-bottom:60px;
 }
 
+.section-description-1 {
+    text-align:left;
+    font-size:20px;
+    font-weight:400;
+  margin-bottom:60px;
+}
 .subsection-title{  
     text-align:center;
     margin-top:80px;
@@ -223,7 +233,7 @@ color:#2c3e50;
 }
 
 .team-member:hover .member-details {
-    background:#5CC9DF;
+    background:#2980b9;
     color:#fff;
 }
 
@@ -598,7 +608,7 @@ color:#2c3e50;
 .headline {
   display: block;
   margin: 10px 0 25px 0;
-  border-bottom: 1px dotted #e4e9f0;
+  
 }
 .headline h2, 
 .headline h3, 
@@ -608,18 +618,22 @@ color:#2c3e50;
   padding-bottom: 5px;
   display: inline-block;
   border-bottom: 2px solid #95a5a6;
+  text-transform:uppercase;
 }
 .headline h2 {
   font-size: 23px;
+  text-transform:uppercase;
 
 }
 
 .headline-md h2 {
   font-size: 21px;
+  text-transform:uppercase;
 }
 
 .headline-md {
   margin-bottom: 15px;
+  text-transform:uppercase;
 }
 
 
