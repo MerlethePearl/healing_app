@@ -20,7 +20,7 @@ end
    def board
   end
 
-   def history
+   def inspiration
   end
 
    def science

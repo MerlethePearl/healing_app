@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   get "vision" => "pages#vision"
   get "founder" => "pages#founder"
   get "board" => "pages#board"
-  get "history" => "pages#history"
+  get "inspiration" => "pages#inspiration"
   get "science" => "pages#science"
   get "students" => "pages#students"
   get "gallery" => "pages#gallery"
