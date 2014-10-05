@@ -25,9 +25,14 @@ $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideUp()
 });
 })
 
-  $(document).ready(function() {
-        $('.fancybox').fancybox({
-            padding : 10px,
-            openEffect  : 'elastic'
-        });
+
+$(document).ready(function(){
+    //FANCYBOX
+    //https://github.com/fancyapps/fancyBox
+    $(".fancybox").fancybox({
+    	padding
+        openEffect: "none",
+        closeEffect: "Elastic"
     });
+});
+   
