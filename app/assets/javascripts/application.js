@@ -30,9 +30,8 @@ $(document).ready(function(){
     //FANCYBOX
     //https://github.com/fancyapps/fancyBox
     $(".fancybox").fancybox({
-    	padding
-        openEffect: "Elastic",
-        closeEffect: "Elastic"
+        openEffect: "none",
+        closeEffect: "none"
     });
 });
    
