@@ -811,18 +811,22 @@ color:#2c3e50;
   max-width: 110%;
   padding-left: 0;
   padding-right: 0;
+  margin-bottom: 0px;
+
 }
 
 .one-page h1,
 .one-page h2 {
   color: #fff;
-  font-size: 30px;
+  font-size: 40px;
   text-shadow: none;
-  margin-bottom: 20px;
+  color: #555;
+
 }
 
 .one-page p {
   color: #fff;
+  font-size: 16px;
 }
 
 .one-page .one-default p,
@@ -843,7 +847,7 @@ color:#2c3e50;
   font-size: 20px !important;
   padding-left: 30px !important;
   padding-right: 30px !important;  
-  margin-bottom: 15px;
+  
 }
 
 .one-page .btn-u {
@@ -854,7 +858,7 @@ color:#2c3e50;
   background: #fff;
 }
 .one-page .one-grey {
-  background: #fafafa;
+  background: #ecf0f1;
 }
 .one-page .one-blue {
   background: #3498db;
@@ -990,7 +994,7 @@ color:#2c3e50;
 .service .desc h4 {
   font-size: 22px;
   line-height: 25px;
-  color:#95a5a6;
+  color:#2980b9;
 }
 
 .service .service-icon {
@@ -1217,17 +1221,17 @@ color: #fff;
 }
 
 .servive-block .servive-block-in h4 a:hover {
-  color: #95a5a6;
+  color: #2980b9;
   text-decoration: none;
 }
 
 .servive-block .servive-block-in:hover h4,
 .servive-block .servive-block-in:hover i {
-  color: #95a5a6;
+  color: #2980b9;
 }
 
 .servive-block .servive-block-in i {
-  color: #565656;
+  color: #2980b9;
   font-size: 40px;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
@@ -1235,27 +1239,6 @@ color: #fff;
     transition: all 0.4s ease-in-out;
 }
 
-.servive-block .servive-block-red {
-  background: #e74c3c;
-}
-.servive-block .servive-block-sea {
-  background: #1abc9c;
-}
-.servive-block .servive-block-blue {
-  background: #3498db;
-}
-.servive-block .servive-block-grey {
-  background: #95a5a6;
-}
-.servive-block .servive-block-yellow {
-  background: #f1c40f;
-}
-.servive-block .servive-block-orange {
-  background: #e67e22;
-}
-.servive-block .servive-block-green {
-  background: #2ecc71;
-}
 
 .servive-block .servive-block-colored i,
 .servive-block .servive-block-colored p,
@@ -1272,7 +1255,7 @@ color: #fff;
 
 /*Service Alternative Block*/
 .service-alternative .service:hover { 
-  background: #7f8c8d;
+  background: #2980b9;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
