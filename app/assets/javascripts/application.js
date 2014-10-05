@@ -31,7 +31,7 @@ $(document).ready(function(){
     //https://github.com/fancyapps/fancyBox
     $(".fancybox").fancybox({
     	padding
-        openEffect: "none",
+        openEffect: "Elastic",
         closeEffect: "Elastic"
     });
 });
